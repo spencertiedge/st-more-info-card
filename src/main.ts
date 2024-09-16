@@ -18,7 +18,7 @@ class MoreInfoCard extends LitElement {
   @property() config;
 
   static getConfigElement() {
-    return document.createElement("more-info-card-editor");
+    return document.createElement("st-more-info-card-editor");
   }
   static getStubConfig(hass, entities, entitiesFill) {
     const ents = entitiesFill.filter((e) => {
