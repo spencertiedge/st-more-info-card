@@ -36,7 +36,7 @@ class MoreInfoCardEditor extends LitElement {
   }
 }
 
-customElements.define("more-info-card-editor", MoreInfoCardEditor);
+customElements.define("st-more-info-card-editor", MoreInfoCardEditor);
 
 (window as any).customCards = (window as any).customCards || [];
 (window as any).customCards.push({
