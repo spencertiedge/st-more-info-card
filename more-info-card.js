@@ -21,10 +21,6 @@ function t(t,e,i,s){var n,o=arguments.length,r=o<3?e:null===s?s=Object.getOwnPro
         <div class="card-content">
           ${lt.includes(e)?_` No More Info Available `:_`
                 ${rt.includes(e)?"":_`
-                      <state-card-content
-                        .stateObj=${t}
-                        .hass=${this.hass}
-                      ></state-card-content>
                     `}
                 <more-info-content
                   .hass=${this.hass}
