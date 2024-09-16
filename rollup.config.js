@@ -9,7 +9,7 @@ const dev = process.env.ROLLUP_WATCH;
 export default {
   input: "src/main.ts",
   output: {
-    file: "more-info-card.js",
+    file: "st-more-info-card.js",
     format: "es",
   },
   plugins: [
