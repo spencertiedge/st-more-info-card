@@ -40,7 +40,7 @@ customElements.define("more-info-card-editor", MoreInfoCardEditor);
 
 (window as any).customCards = (window as any).customCards || [];
 (window as any).customCards.push({
-  type: "more-info-card",
+  type: "st-more-info-card",
   name: "More-info card",
   preview: true,
   description: "Display the more-info dialog of an entity as a card",
