@@ -92,7 +92,7 @@ class MoreInfoCard extends LitElement {
   }
 }
 
-customElements.define("more-info-card", MoreInfoCard);
+customElements.define("st-more-info-card", MoreInfoCard);
 console.info(
   `%cMORE-INFO-CARD ${pjson.version} IS INSTALLED`,
   "color: green; font-weight: bold",
